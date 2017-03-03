@@ -4,11 +4,6 @@ _working with objects_
 
 * * *
 
-Brian Pina //////// My three dimensional class gets threes points put in variables labled x,y,z this class has a fucntion that passses three arguments in the class constructor i also added setz and getz functions so that the Z variable can be mutated and aletered distance to function holds to passes of the the point class where we use the distanve formula to find the sitance between two points
-
-area.cpp holds a computeArea function that will comopute the area of these points based in herons formula which is based in triangles using three points ///////////// we use the point class to use 3 points and we use the passes from the point class to plug in the values to find the semi perimeter from the semiperimeter value we use it to compute the final area
-
-working with objects
 
 
 
@@ -122,7 +117,7 @@ add_executable(ucd_csci2312_pa1 ${SOURCE_FILES})
 
    In CLion, you first have to build (Run-->Build) and then run (Run-->Run 'ucd_csci2312_pa1') your project. Any output will appear in the built-in console.
 
-7.  This assigment is based on a test suite. The test suite is written not against the original assignment but against the finished assignment. So the first time you run it, it won't even compile. For example, the test suite assumes a 3D Point whereas the original assignment has only a 2D Point. 
+7.  This assigment is based on a test suite. The test suite is written not against the original assignment but against the finished assignment. So the first time you run it, it won't even compile. For example, the test suite assumes a 3D Point whereas the original assignment has only a 2D Point.
 
    Test-driven development (TDD) means that you write your test code before you write the actual code it has to test. You will be doing TDD, except that you already have the test suite. The test suite is written in such a way that earlier tests are more basic and later tests require earlier tests to be running. The most basic test is usually called a "smoke test", so it's best to start there. Here is a recommended strategy for completing PA1:
 
@@ -144,7 +139,7 @@ add_executable(ucd_csci2312_pa1 ${SOURCE_FILES})
 
 9.  Update the [README.md](https://github.com/ivogeorg/ucd-csci2312-pa1/edit/master/README.md) file in your _remote_ repository with a description of your 3D Point class. (Clicking on a file takes you to a view where you can edit it.) You can use this file as a guide. Use the [Github Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) as a reference.
 
-10. Coding style is important for your career. While this assignment is going to be graded strictly on passing the tests, subsequent assignments might also check for coding style. Here is a short C++ programming [style guide](http://courses.cms.caltech.edu/cs11/material/cpp/donnie/cppstyle.html) you can use as a reference. Adopting a good style early on, when the assingment is small, will pay off greatly and very soon. 
+10. Coding style is important for your career. While this assignment is going to be graded strictly on passing the tests, subsequent assignments might also check for coding style. Here is a short C++ programming [style guide](http://courses.cms.caltech.edu/cs11/material/cpp/donnie/cppstyle.html) you can use as a reference. Adopting a good style early on, when the assingment is small, will pay off greatly and very soon.
 
 ### Grading
 
